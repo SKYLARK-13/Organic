@@ -1,0 +1,126 @@
+.footer {
+  display: flex;
+  padding-top: 120px;
+  justify-content: space-between;
+  background-image: url(../../assets/Group229.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 0 20px; */
+}
+
+.branding {
+  margin: 1.968rem 0 2.02rem 10.468rem;
+}
+.branding > .line {
+  width: 4.813rem;
+  height: 0;
+  margin: 2.02rem 0 0 0;
+  border: solid 2px #00dbd0;
+  background-color: #00dbd0;
+}
+
+.branding > p {
+  width: 19.938rem;
+  height: 2.75rem;
+  margin: 1.968rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: normal;
+
+  text-align: left;
+  color: #ffffff;
+}
+
+.branding > h6 {
+  margin: 0.668rem 0 0 0;
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  text-align: left;
+  color: #ffffff;
+}
+
+.about {
+  width: 19.314rem;
+  height: 13.709rem;
+  margin: 2.314rem 0 0 8.122rem;
+}
+.about > .line {
+  width: 3.375rem;
+  height: 0;
+  margin: 1.02rem 0 0 0;
+  border: solid 2px #00dbd0;
+  background-color: #00dbd0;
+}
+.footer > .about > h3 {
+  margin: 0 3.563rem 0.895rem 0.063rem;
+  font-size: 1rem;
+  font-weight: bold;
+
+  text-align: left;
+  color: #ffffff;
+}
+
+.company {
+  width: 19.314rem;
+  height: 13.709rem;
+  margin: 3.314rem 0 0 0;
+}
+
+.company > h4 {
+  margin: 0.98rem 0 1rem 6.563rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  cursor: pointer;
+  text-align: left;
+  color: #ffffff;
+}
+
+.about > h4 {
+  margin: 1.105rem 5.625rem 0.875rem 0.063rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  cursor: pointer;
+  text-align: left;
+  color: #ffffff;
+}
+
+.follow {
+  width: 19.314rem;
+  height: 13.709rem;
+  padding: 2.314rem 8.205rem 5.653rem 8.122rem;
+}
+.follow > h3 {
+  margin: 0 0 0.895rem;
+  font-size: 1rem;
+  font-weight: bold;
+
+  text-align: left;
+  color: #ffffff;
+}
+
+.follow > .line {
+  width: 3.375rem;
+  height: 0;
+  margin: 1.02rem 0 0 0;
+  border: solid 2px #00dbd0;
+  background-color: #00dbd0;
+}
+
+.follow > .icons {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0 0 0;
+}
+.icons > img {
+  margin: 0 1rem 0 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+}

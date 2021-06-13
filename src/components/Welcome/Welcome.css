@@ -1,0 +1,122 @@
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.welcome-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-desc {
+  align-self: center;
+}
+.top-desc > img {
+  margin: 0 300px;
+}
+.top-desc > h2 {
+  margin: 0 0 0 160px;
+  color: 374b5c;
+  font-size: 36px;
+  font-weight: normal;
+}
+.top-desc > p {
+  width: 568px;
+  height: 42px;
+  margin: 19px 19.3px 82.1px;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+}
+
+.top-cards,
+.top-cards > img {
+  align-self: center;
+  padding: 0 30px 0 30px;
+  cursor: pointer;
+}
+
+.welcome-bottom {
+  display: flex;
+  flex-direction: column;
+  /* margin: 120px 0 0 0; */
+
+  margin: 82px 0 101px;
+  padding: 70px 100px 0 100px;
+  background-color: #fbfefe;
+}
+
+.bottom-desc {
+  align-self: center;
+}
+
+.bottom-desc > h2 {
+  margin: 0 0 0 160px;
+  color: #374b5c;
+  font-size: 36px;
+  font-weight: normal;
+}
+.bottom-desc > p {
+  width: 568px;
+  height: 42px;
+  margin: 19px 19.3px 82.1px;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.31;
+  letter-spacing: normal;
+  text-align: center;
+  color: #374b5c;
+}
+.bottom-cor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+}
+
+.bottom-cor > .cors {
+  align-self: center;
+}
+.cors {
+  cursor: pointer;
+}
+
+.welcome-bottom > .corousel {
+  display: flex;
+  justify-content: center;
+}
+.corousel > .corousel-dot {
+  cursor: pointer;
+  background-color: #374b5c;
+  border-radius: 10px;
+  width: 8px;
+  height: 8px;
+  margin: 40px 10px 40px 10px;
+}
+.corousel > .corousel-dot:hover {
+  background-color: #00dbd0;
+}
+
+@media screen and (max-width: 768px) {
+.welcome-top {
+  justify-content: center;
+}
+ .bottom-cor {
+  display: flex;
+  flex-direction: column;
+  
+ }
+ .bottom-cor > .cors {
+   margin: 20px 0 20px 0;
+ }
+}

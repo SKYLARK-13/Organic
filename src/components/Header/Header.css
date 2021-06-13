@@ -1,0 +1,143 @@
+.header {
+  background-image: linear-gradient(to bottom, #f1fefe, rgba(241, 254, 254, 0));
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar-left > img {
+  height: 70px;
+}
+
+.navbar-left > h3 {
+  font-size: 32px;
+  color: #374b5c;
+  margin: 0px 15px;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 80px;
+  width: 450px;
+}
+
+.navbar-right > h5 {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: normal;
+  align-self: center;
+  color: #757474;
+  padding: 10px;
+}
+
+.navbar-right > h5:nth-child(5) {
+  border-radius: 10px;
+  border: solid 2px #00dbd0;
+}
+
+.navbar-right > h5:hover {
+  border-bottom: 4px solid #00dbd0;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  margin: 100px 0 0 0;
+}
+
+.body-content {
+  display: flex;
+  flex-direction: column;
+}
+.body-content > h2 {
+  color: #374b5c;
+  font-size: 36px;
+  font-weight: normal;
+}
+.body-content > h1 {
+  color: #374b5c;
+  font-weight: bold;
+  font-size: 56px;
+}
+.body-content > p {
+  margin: 35px 0px 0px 0px;
+  color: #374b5c;
+  font-weight: normal;
+  font-size: 20px;
+}
+.body-button {
+  cursor: pointer;
+  align-content: center;
+  width: 110px;
+  height: 30px;
+  margin: 35px 0 0 0;
+  padding: 14px 64px 16px 48px;
+  border-radius: 10px;
+  background-color: #00dbd0;
+}
+.body-button > h6 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.body-logo {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+}
+.body-logo > .flower {
+  width: 419px;
+  height: 570px;
+  z-index: 2;
+  margin: 50px 150px 0px 0px;
+}
+.flower > img {
+  width: 419px;
+  height: 570px;
+}
+.body-logo > .logob {
+  position: relative;
+  left: -330px;
+  width: 450px;
+  height: 450px;
+  margin: 40px 100px 0px 0px;
+
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.logob > img {
+  width: 220px;
+  height: 220px;
+  align-self: center;
+  border: 3px solid #00dbd0;
+  padding: 65px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+}
